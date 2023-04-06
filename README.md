@@ -17,4 +17,4 @@ The dataset I chose to use for this model is a California Housing dataset derive
 
 The dataset is in CSV format, so I began by importing the data as a Pandas dataframe to make analysis and exploration easier. Just looking at the data, I already could form an inference that certain features like median income would have a large impact on median home value. To explore this inference, I created a correlation matrix to check all the correlations between features. 
 
-
+![correlation](corr.PNG)
