@@ -12,4 +12,9 @@ According to Realtor.com(https://www.realtor.com/advice/finance/how-long-does-it
 
 
 ## Data Understanding 
-The dataset I chose to use for this model is a California Housing dataset derived from US Census data 
+
+The dataset I chose to use for this model is a California Housing dataset derived from US Census data. A large factor is the data is done on a larger scale basis because of its nature as Census data. Instead of looking at individuals homes and associated features, this dataset uses districts so that each entry is representative of a large amount of homes. So, when delivering any insights or predicting any home values, it is important to keep these factors in mind. 
+
+The dataset is in CSV format, so I began by importing the data as a Pandas dataframe to make analysis and exploration easier. Just looking at the data, I already could form an inference that certain features like median income would have a large impact on median home value. To explore this inference, I created a correlation matrix to check all the correlations between features. 
+
+
