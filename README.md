@@ -29,3 +29,11 @@ Having added these features, it was easy to see their value as it seemed to indi
 ## Modeling and Evaluation
 
 When entering the model stage, I began with a linear regression model as it was the most apparent for the type of data. For evaluation I decided to use sklearns built in .score which derives its value from the R^2. This model yielded mediocre results that left a lot of room for improvement with a score of 67%. Next, I went with a decision tree model that yielded worse results compared to the initial model, but this model did see response to the scaling that the linear regression did not. For my last model, I decided to use a random forest model because I thought it would respond the best to scaling and would still have interpretability. Accordingly, this model yielded the best score of near 83% when using scaled training and testing data. This final model represents a significant improvement of around 16% from the baseline. 
+
+## Conclusion
+
+Overall, modeling efforts were quite successful. I was able to generate a model with a high degree of accuracy and through data exploration was able to identify key features that drive value. End users would be able to use this model to give an immediate valuation to a house that might otherwise take days of due diligence. By no means is this model perfect though, and it should be used as a ballpark estimation rather than the last word in valuation. 
+
+## Repo Navigation
+
+The repo is set up with the Final Notebook as end product that shows all the steps discussed previously in more detail. A git ignore is included to exclude large files along with various png images used for README purposes. 
