@@ -36,4 +36,4 @@ Overall, modeling efforts were quite successful. I was able to generate a model 
 
 ## Repo Navigation
 
-The repo is set up with the Final Notebook as end product that shows all the steps discussed previously in more detail. A git ignore is included to exclude large files along with various png images used for README purposes. 
+The repo is set up with the Final Notebook as end product that shows all the steps discussed previously in more detail. A git ignore is included to exclude large files along with various png images used for README purposes. A working notebook is also included but was only used for purposes of experimentation and not final evaluation.
